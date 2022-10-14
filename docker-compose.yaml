@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   jenkins:
-    bouild: build/jenkins
+    build: build/jenkins
     privileged: true
     user: root
     ports:
